@@ -69,6 +69,10 @@
     font-family: Poppins-SemiBold;
 }
 
+.app-text p span {
+    background-color: #FF9F1A;
+}
+
 .banner input {
     position: absolute;
     font-family: Poppins-Light;
@@ -98,6 +102,9 @@
 }
 
 .btn:hover {
-    
+    background: #FF9F1A;
+    text-decoration: none;
+    border: solid black 3px;
+    border-radius: 20px;
     
 }
