@@ -1,3 +1,20 @@
-html {
+@font-face {
+  font-family: Poppins-Light;
+  src: url(fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins-SemiBoldItalic;
+  src: url(fonts/Poppins/Poppins-SemiBoldItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
     background-color: #FED330;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
 }
