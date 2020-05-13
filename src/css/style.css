@@ -45,7 +45,13 @@
     position: absolute;
 }
 
-.app-text p  {
+.banner img {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.app-text p {
     font-family: Poppins-Light;
     font-size: 34px;
     text-align: center;
@@ -60,4 +66,44 @@
 
 .app-text p b {
     font-family: Poppins-SemiBold;
+}
+
+.banner input {
+    position: absolute;
+    font-family: Poppins-Light;
+    font-size: 25px;
+    margin-top: 5%;
+    padding: 20px 50px;
+    text-align: center;
+    left: 60%;
+    border-bottom: 0.2px solid black;
+    overflow: hidden;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 52px;
+   line-height: 52px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 430px;
+   font-size: 36px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #1E62D0;
+   border: solid #FF9F1A 0px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
