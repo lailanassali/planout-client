@@ -8,6 +8,12 @@
     src: url(fonts/Poppins/Poppins-SemiBoldItalic.ttf);
 }
 
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -37,4 +43,21 @@
     top: 5%;
     right: 80px;
     position: absolute;
+}
+
+.app-text p  {
+    font-family: Poppins-Light;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    
+}
+
+.app-text p i {
+    font-family: Poppins-SemiBoldItalic;
+}
+
+.app-text p b {
+    font-family: Poppins-SemiBold;
 }
