@@ -1,0 +1,273 @@
+/** Ipad 
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+    
+    
+    
+}
+
+/** Iphone X
+
+@media only screen and (min-width: 900px) {
+
+    .menu img {
+        position: absolute;
+        cursor: pointer;
+        width: 25px;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .logo img {
+        position: absolute;
+        width: 75px;
+        margin-left: 37%;
+        margin-top: 25%;
+        margin-bottom: 10%
+    }
+
+    .hero-image img {
+        width: 100px;
+        margin-left: 35%;
+        margin-top: 50%;
+    }
+
+    .app-text p {
+        position: absolute;
+        margin-left: 25%;
+        font-size: 14px;
+        top: 30%;
+        margin-top: 60%;
+    }
+    
+    .user input {
+        font-family: Poppins-Light;
+        padding: 15px 60px;
+        border-bottom: 0.5px solid black;
+        overflow: hidden;
+        outline: none;
+        font-size: 14px;
+        margin-top: 45%;
+        margin-left: 14%;
+        width: 150px;
+        
+    }
+
+    .btn {
+        background: black;
+        border-radius: 10px;
+        color: white;
+        font-family: Poppins-Light;
+        width: 250px;
+        text-decoration: none;
+        cursor: pointer;
+        height: 50px;
+        font-size: 14px;
+        margin-left: 17.5%;
+        margin-top: 20px;
+
+
+    }
+
+    .btn:hover {
+        background: #FF9F1A;
+        text-decoration: none;
+        border: solid black 3px;
+        border-radius: 20px;
+
+    }
+
+
+
+}
+**/
+
+/** Ipad 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .menu img {
+        position: absolute;
+        cursor: pointer;
+        max-width: 50px;
+        margin-left: 85%;
+        top: 50px;
+    }
+
+    .logo img {
+        position: absolute;
+        width: 140px;
+        margin-left: 40%;
+        margin-top: 20%;
+
+    }
+
+    .hero-image img {
+        position: absolute;
+        width: 200px;
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+
+    .app-text p {
+        position: absolute;
+        font-family: Poppins-Light;
+        font-size: 22px;
+        top: 40%;
+        margin-left: 47%;
+       
+
+    }
+
+    .user input {
+        font-family: Poppins-Light;
+        padding: 20px 100px;
+        border-bottom: 1.4px solid black;
+        overflow: hidden;
+        outline: none;
+        font-size: 25px;
+        margin-top: 100%;
+        margin-left: 15%;
+        width: 320px;
+    }
+
+    .btn {
+        background: black;
+        border-radius: 20px;
+        color: white;
+        font-family: Poppins-Light;
+        width: 350px;
+        text-decoration: none;
+        cursor: pointer;
+        height: 70px;
+        font-size: 20px;
+        margin-left: 27%;
+        margin-top: 40px;
+
+
+    }
+
+    .btn:hover {
+        background: #FF9F1A;
+        text-decoration: none;
+        border: solid black 3px;
+        border-radius: 20px;
+
+    }
+
+
+}
+
+**/
+
+/** Ipad Pro 
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+
+    .menu img {
+        position: absolute;
+        cursor: pointer;
+        max-width: 60px;
+        margin-left: 85%;
+        top: 60px;
+    }
+
+    .logo img {
+        width: 180px;
+        position: absolute;
+    }
+
+    .hero-image img {
+        position: absolute;
+        width: 270px; 
+        margin-top: 40%;
+        margin-left: 10%;
+    }
+
+    .app-text p {
+        position: absolute;
+        margin-left: 45%;
+        font-size: 32px;
+        top: 40%;
+
+    }
+
+    .user input {
+        font-family: Poppins-Light;
+        padding: 20px 60px;
+        border-bottom: 2px solid black;
+        overflow: hidden;
+        outline: none;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: 19%;
+        width: 500px;
+    }
+
+
+    .btn {
+        background: black;
+        border-radius: 20px;
+        color: white;
+        font-family: Poppins-Light;
+        width: 500px;
+        text-decoration: none;
+        cursor: pointer;
+        height: 90px;
+        font-size: 24px;
+        margin-left: 26%;
+        margin-top: 40px;
+
+
+    }
+
+    .btn:hover {
+        background: #FF9F1A;
+        text-decoration: none;
+        border: solid black 3px;
+        border-radius: 20px;
+
+    }
+
+
+}
+
+**/
+
+/**
+    .logo img {
+        margin-left: 60%;
+        margin-top: 40%;
+        width: 100px;
+    }
+    
+    .menu img {
+        margin-top: 15%;
+        right: -25%;
+        width: 40px;
+    }
+
+    .hero-image img {
+        width: 200px;
+        margin-left: 30%;
+        margin-top: 35%;
+    }
+    
+    .app-text p {
+        font-size: 15px;
+        width: 500px;
+        margin-left: -55%;
+        margin-top: 250%;
+        margin-bottom: 30px;
+    }
+    
+    .user input {
+        padding: 5px 20px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        width: 230px;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 10px
+    }
+**/
