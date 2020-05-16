@@ -125,12 +125,13 @@
     background-color: #FF9F1A;
 }
 
+
 /**IPAD PRO**/
 
 @media only screen and (max-width: 1024px) {
     .hero-image img {
         position: absolute;
-        top: 15%;
+        top: 13%;
         left: 8%;
         width: 30%;
         margin-top: 15%;
@@ -139,7 +140,7 @@
     
     .app-text p {
         position: absolute;
-        margin-top: 34%;
+        margin-top: 30%;
         right: 10%;
         font-size: 30px;
     }
@@ -161,63 +162,35 @@
     }
 }
 
-/**IPHONE DEVICES**/
-@media only screen and (max-width: 950px) {
+/**IPAD **/
 
-    .banner {
-
-        text-align: center;
-        margin-top: 10%;
-        margin-left: 0;
-    }
-
-    .logo img {
-        margin-top: 20%;
-        max-width: 20%;
-    }
-
+@media only screen and (max-width: 768px) {
+    
     .menu img {
-        margin-top: 10%;
-        max-width: 8%;
+        position: absolute;
+        margin-top: 7%;
     }
-
-
-    .hero-image {
-        display: block;
-    }
-
-    .hero-image img {
-        position: relative;
-        top: 20%;
-        left: 0;
-        width: 30%;
-        margin-bottom: 10%;
-
-    }
-
+    
     .app-text p {
-        font-family: Poppins-Light;
-        font-size: 28px;
+        font-size: 23px;
     }
-
-
+    
     .user input {
-
-        font-size: 30px;
-        padding: 20px 0;
-        width: 45%
+        left: 26%;
+        top: 14%;
+        font-size: 25px;
     }
-
-
+    
     .btn {
-        background: black;
-        border-radius: 20px;
-        color: white;
-        font-family: Poppins-Light;
-        width: 40%;
-        text-decoration: none;
-        cursor: pointer;
-        height: 80px;
-        font-size: 28px;
-
+        top: 15%;
+        height: 7%;
+        font-size: 25px;
     }
+}
+
+/** Iphone **/
+
+@media only screen and (max-width: 375px) {
+    
+}
+
