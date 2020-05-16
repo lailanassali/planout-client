@@ -129,12 +129,35 @@
 
 @media only screen and (max-width: 1024px) {
     .hero-image img {
-        position: relative;
-        top: 20%;
-        left: 0;
-        width: 50%;
-        margin-bottom: 10%;
+        position: absolute;
+        top: 15%;
+        left: 8%;
+        width: 30%;
+        margin-top: 15%;
 
+    }
+    
+    .app-text p {
+        position: absolute;
+        margin-top: 34%;
+        right: 10%;
+        font-size: 30px;
+    }
+    
+    .user input {
+        position: absolute;
+        margin-top: 80%;
+        left: 30%;
+        font-size: 30px;
+        padding: 20px 55px;
+    }
+    
+    .btn {
+        position: absolute;
+        margin-top: 95%;
+        left: 30%;
+        height: 80px;
+        font-size: 26px;
     }
 }
 
