@@ -167,7 +167,6 @@
 @media only screen and (max-width: 768px) {
     
     .menu img {
-        position: absolute;
         margin-top: 7%;
     }
     
@@ -188,9 +187,53 @@
     }
 }
 
-/** Iphone **/
+/** Iphone X **/
 
 @media only screen and (max-width: 375px) {
     
+    .menu img {
+        position: absolute;
+        left: 80%;
+        width: 10%;
+    }
+    
+    .logo img {
+        width: 20%;
+        margin-top: 20%;
+    }
+    
+    .hero-image img {
+        width: 35%;
+        left: 32%;
+        top: 15%;
+    }
+    
+    .app-text p {
+        font-size: 14px;
+        bottom: 19%;
+        left: 10%;
+    }
+    
+    .user input {
+        position: absolute;
+        padding: 10px 5px;
+        font-size: 20px;
+       
+    }
+    
+    .user {
+        position: absolute;
+        bottom: 25%;
+        left: 20%;
+        font-size: 10px;
+    }
+    
+    .btn {
+        font-size: 15px;
+        top: 42%;
+        height: 50px;
+        width: 50%;
+        left: 24%;
+    }
 }
 
