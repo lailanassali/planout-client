@@ -242,9 +242,21 @@
     }
 }
 
+/** Iphone 6/7/8 Plus **/
+
+@media only screen and (max-width: 411px) {
+    
+    .app-text p {
+        font-size: 30px;
+    }
+    
+    
+}
+
+
 /** Iphone X **/
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px)  {
     
     .menu img {
         position: absolute;
@@ -289,6 +301,49 @@
         height: 50px;
         width: 50%;
         left: 24%;
+    }
+    
+}
+
+/** Iphone X **/
+
+@media only screen and (max-width: 360px)  {
+    
+    .logo img {
+        margin-top: 15%;
+    }
+    
+    .hero-image img {
+        top: 12%;
+    }
+
+    .app-text p {
+        font-size: 12px;
+        bottom: 10%;
+        left: 10%;
+    }
+    
+    .user input {
+        position: absolute;
+        padding: 10px 20px;
+        font-size: 14px;
+       
+    }
+    
+    .user {
+        position: absolute;
+        bottom: 20%;
+        left: 24%;
+        font-size: 10px;
+    }
+    
+    .btn {
+        font-size: 12px;
+        top: 36%;
+        height: 42px;
+        width: 50%;
+        left: 24%;
+        
     }
 }
 
