@@ -20,61 +20,73 @@
     background: #FED330;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
 .container {
-    width: 100%;
-    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
 }
 
-.nav-bar ul li {
-    list-style: none;
+.logo {
+    grid-column: 1/3;
+    justify-self: end;
+    text-align: center;
+    margin-top: 4%;
 }
 
-.nav-bar img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    cursor: pointer;
-    max-width: 120px;
+.menu {
+    text-align: end;
+    margin-top: 10%;
+    margin-right: 20%;
+}
+
+.hero {
+   text-align: center;
+   margin-top: 10%;
+}
+
+.content {
+    align-self: center;
+    text-align: center;
+    justify-self: start;
+    grid-column: 2/3;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.logo img {
+    width: 25%;
 }
 
 .menu img {
-    top: 0;
-    right: 80px;
-    position: absolute;
-    cursor: pointer;
-    max-width: 50px;
+    width: 14%;
+
 }
 
-.hero-image img {
-    position: absolute;
-    top: 20%;
-    left: 15%;
+.hero img {
     width: 300px;
 }
 
-.app-text p {
+.content p {
     font-family: Poppins-Light;
-    font-size: 28px;
-    margin-bottom: 70px;
+    font-size: 30px;
 }
 
-.app-text p i {
+.content p i {
     font-family: Poppins-SemiBoldItalic;
 }
 
-.app-text p b {
+.content p b {
     font-family: Poppins-SemiBold;
 }
 
-.app-text p span {
+.content p span {
     background-color: #FF9F1A;
-}
-
-.banner {
-    text-align: center;
-    margin-top: 10%;
-    margin-left: 40%;
 }
 
 .user input {
@@ -83,23 +95,23 @@
     border-bottom: 0.2px solid black;
     overflow: hidden;
     outline: none;
-    margin-bottom: 50px;
-    font-size: 25px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-size: 30px;
     border-left: none;
     border-right: none;
     border-top: none;
 }
 
-
 .btn {
     background: black;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
     font-family: Poppins-Light;
-    width: 40%;
+    width: 70%;
     text-decoration: none;
     cursor: pointer;
-    height: 70px;
+    height: 60px;
     font-size: 24px;
 
 }
@@ -107,285 +119,8 @@
 .btn:hover {
     background: #FF9F1A;
     text-decoration: none;
-    border: solid black 3px;
-    border-radius: 20px;
+    border: solid black 2px;
+    border-radius: 15px;
 
 }
-
-
-.app-text p i {
-    font-family: Poppins-SemiBoldItalic;
-}
-
-.app-text p b {
-    font-family: Poppins-SemiBold;
-}
-
-.app-text p span {
-    background-color: #FF9F1A;
-}
-
-
-/** Ipad Pro **/
-
-@media only screen and (max-width: 1024px) {
-    .hero-image img {
-        position: absolute;
-        top: 13%;
-        left: 8%;
-        width: 30%;
-        margin-top: 15%;
-
-    }
-    
-    .app-text p {
-        position: absolute;
-        margin-top: 30%;
-        right: 10%;
-        font-size: 30px;
-    }
-    
-    .user input {
-        position: absolute;
-        margin-top: 80%;
-        left: 30%;
-        font-size: 30px;
-        padding: 20px 55px;
-    }
-    
-    .btn {
-        position: absolute;
-        margin-top: 95%;
-        left: 30%;
-        height: 80px;
-        font-size: 26px;
-    }
-}
-
-/** Ipad **/
-
-@media only screen and (max-width: 768px) {
-    
-    .menu img {
-        margin-top: 7%;
-    }
-    
-    .logo img {
-        
-    }
-    
-    .app-text p {
-        font-size: 23px;
-    }
-    
-    .user input {
-        left: 26%;
-        top: 14%;
-        font-size: 25px;
-    }
-    
-    .btn {
-        top: 15%;
-        height: 7%;
-        font-size: 25px;
-    }
-}
-
-/** Iphone 6/7/8 Plus **/
-
-@media only screen and (max-width: 414px) {
-    
-    .menu img {
-        position: absolute;
-        left: 80%;
-        width: 8%;
-        top: 1%;
-    }
-    
-    .logo img {
-        width: 20%;
-        margin-top: 15%;
-    }
-    
-    .hero-image img {
-        width: 32%;
-        left: 34%;
-        top: 13%;
-    }
-    
-    .app-text p {
-        font-size: 12px;
-        bottom: 15%;
-        left: 10%;
-    }
-    
-    .user input {
-        padding: 10px 30px;
-        font-size: 15px;
-        margin-bottom: 10%;
-    }
-    
-    .user {
-        position: absolute;
-        bottom: 22%;
-        left: 24%;
-        font-size: 10px;
-    }
-    
-    .btn {
-        font-size: 13px;
-        top: 35%;
-        height: 45px;
-        width: 45%;
-        left: 27%;
-        
-    }
-}
-
-/** Iphone 6/7/8 Plus **/
-
-@media only screen and (max-width: 375px) and (max-height: 667px)  {
-    
-    .app-text p {
-        margin-top: 40%;
-    }
-    
-    
-}
-
-
-/** Iphone X **/
-
-@media only screen and (max-width: 375px) {
-    
-    .menu img {
-        position: absolute;
-        left: 80%;
-        width: 10%;
-    }
-    
-    .logo img {
-        width: 20%;
-        margin-top: 20%;
-    }
-    
-    .hero-image img {
-        width: 35%;
-        left: 32%;
-        top: 15%;
-    }
-    
-    .app-text p {
-        font-size: 12px;
-        bottom: 19%;
-        left: 10%;
-    }
-    
-    .user input {
-        position: absolute;
-        padding: 10px 5px;
-        font-size: 20px;
-       
-    }
-    
-    .user {
-        position: absolute;
-        bottom: 25%;
-        left: 20%;
-        font-size: 10px;
-    }
-    
-    .btn {
-        font-size: 15px;
-        top: 42%;
-        height: 50px;
-        width: 50%;
-        left: 24%;
-    }
-    
-}
-
-/** Iphone X **/
-
-@media only screen and (max-width: 360px)  {
-    
-    .logo img {
-        margin-top: 15%;
-    }
-    
-    .hero-image img {
-        top: 12%;
-    }
-
-    .app-text p {
-        font-size: 12px;
-        bottom: 10%;
-        left: 10%;
-    }
-    
-    .user input {
-        position: absolute;
-        padding: 10px 20px;
-        font-size: 14px;
-       
-    }
-    
-    .user {
-        position: absolute;
-        bottom: 20%;
-        left: 24%;
-        font-size: 10px;
-    }
-    
-    .btn {
-        font-size: 12px;
-        top: 36%;
-        height: 42px;
-        width: 50%;
-        left: 24%;
-        
-    }
-}
-
-/** Iphone 5/SE **/
-
-@media only screen and (max-width: 320px) {
-    
-    .logo img {
-        position: relative;
-        margin-top: 13%;
-    }
-    
-    .hero-image img {
-        width: 30%;
-        left: 35%;
-        top: 12%;
-    }
-    
-    .app-text p {
-        font-size: 10px;
-        bottom: 12%;
-    }
-    
-    .user {
-        left: 25%;
-        bottom: 22%;
-    }
-    
-    .user input {
-        font-size: 11px;
-        padding: 10px 30px;
-    }
-    
-    .btn {
-        top: 36%;
-        left: 29%;
-        height: 40px;
-        width: 45%;
-        font-size: 11px;
-    }
-}
-   
-
-
 
