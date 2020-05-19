@@ -17,64 +17,59 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background: #FED330;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  
-}
-
-.logo {
-    grid-column: 1/3;
-    justify-self: end;
-    text-align: center;
-    margin-top: 4%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
 }
 
 .menu {
-    text-align: end;
+    margin-right: 40px;
+    grid-row: 1;
+    justify-self: end;
     margin-top: 10%;
-    margin-right: 20%;
-}
-
-.hero {
-   text-align: center;
-   margin-top: 10%;
-}
-
-.content {
-    align-self: center;
-    text-align: center;
-    justify-self: start;
-    grid-column: 2/3;
-    margin-top: 20%;
-    margin-left: 10%;
-}
-
-.logo img {
-    width: 25%;
 }
 
 .menu img {
-    width: 14%;
+    width: 40px;
+}
 
+
+/** 1fr 1fr 1fr **/
+.logo {
+    justify-self: center;
+    margin-top: 20%;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 125px;
+}
+
+
+.hero {
+    margin-top: 10%;
 }
 
 .hero img {
-    width: 300px;
+    width: 200px;
+}
+
+.content {
+    padding-bottom: 50px;
+    margin-top: 15%;
+    text-align: center;
 }
 
 .content p {
     font-family: Poppins-Light;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .content p i {
@@ -89,15 +84,21 @@
     background-color: #FF9F1A;
 }
 
+.content,
+.user,
+.hero {
+    justify-self: center;
+}
+
 .user input {
     font-family: Poppins-Light;
     padding: 20px 50px;
     border-bottom: 0.2px solid black;
     overflow: hidden;
     outline: none;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     margin-top: 10%;
-    font-size: 30px;
+    font-size: 18px;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -108,12 +109,11 @@
     border-radius: 15px;
     color: white;
     font-family: Poppins-Light;
-    width: 70%;
+    width: 80%;
     text-decoration: none;
     cursor: pointer;
-    height: 60px;
-    font-size: 24px;
-
+    height: 50px;
+    font-size: 18px;
 }
 
 .btn:hover {
@@ -121,6 +121,4 @@
     text-decoration: none;
     border: solid black 2px;
     border-radius: 15px;
-
 }
-
