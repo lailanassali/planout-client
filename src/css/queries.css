@@ -1,9 +1,119 @@
-/** Tablets and Main Website **/
+/** Small Tablets  **/
 @media only screen and (min-width: 768px) {
+    .wrapper {
+        grid-template-columns: 55% 45%;
+    }
 
+    .menu {
+        justify-self: end;
+        grid-column: 2/3;
+        margin-top: 4em;
+        margin-right: 4em;
+    }
 
+    .menu img {
+        width: 70px;
+    }
 
+    .logo {
+        justify-self: end;
+        margin-top: 7%;
+    }
 
+    .logo img {
+        width: 150px;
+    }
+
+    .hero {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 7em;
+    }
+
+    .hero img {
+        width: 310px;
+
+    }
+
+    .content {
+        justify-self: center;
+        margin-right: 15em;
+        margin-top: 5em;
+    }
+
+    .content p,
+    .user input {
+        font-size: 30px;
+    }
+
+    .content p {
+        width: 500px;
+    }
+
+    .btn {
+        height: 60px;
+        font-size: 22px;
+    }
+    }
 }
 
+
+
+/** Websites **/
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        grid-template-columns: 55% 45%;
+    }
+
+    .menu {
+        justify-self: end;
+        grid-column: 2/3;
+        margin-top: 7%;
+        margin-right: 10%;
+    }
+
+    .menu img {
+        width: 70px;
+    }
+
+    .logo {
+        justify-self: end;
+        margin-top: 7%;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .hero {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+
+    .hero img {
+        width: 310px;
+
+    }
+
+    .content {
+        justify-self: center;
+        margin-right: 30%;
+        margin-top: 10%;
+    }
+
+    .content p,
+    .user input {
+        font-size: 30px;
+    }
+
+    .content p {
+        width: 500px;
+    }
+
+    .btn {
+        height: 60px;
+        font-size: 22px;
+    }
+    }
 }
