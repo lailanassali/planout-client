@@ -21,12 +21,15 @@
     background: #FED330;
 }
 
+/** section 1 **/
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1f;
     width: 100vw;
     height: 100vh;
+    background: #FED330;
 }
 
 .menu {
@@ -114,6 +117,7 @@
     cursor: pointer;
     height: 50px;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 .btn:hover {
@@ -121,4 +125,14 @@
     text-decoration: none;
     border: solid black 2px;
     border-radius: 15px;
+}
+
+/** section 2 **/
+
+.frame {
+   grid-gap: 0;
+}
+
+.pic img {
+    width: 100%;
 }
