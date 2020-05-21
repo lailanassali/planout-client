@@ -138,15 +138,15 @@
     border: solid black 2px;
     border-radius: 15px;
 }
-
 /** section 2 **/
 
 .frame {
     display: grid;
-    grid-gap: 0;
+    margin-top: 28em;
 }
 
-.pic img, .socials {
+.pic img,
+.socials {
 
     width: 100%;
     margin-bottom: -0.4em;
@@ -155,10 +155,11 @@
 .social {
     background-color: black;
     height: 150px;
-    
+
 }
 
-.icons, .icons img {
+.icons,
+.icons img {
     background-color: black;
 }
 
@@ -172,20 +173,22 @@
     font-family: Avenir-Heavy;
     background-color: black;
 }
- .social p {
+
+.social p {
     background-color: black;
     color: white;
     font-family: Avenir-Roman;
-     text-align: center;
-     font-size: 14px;
-     margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
 }
 
 .icons img {
     margin-right: 20px;
 }
 
-.ig, .msg {
+.ig,
+.msg {
     width: 20px;
 }
 
@@ -193,3 +196,4 @@
     width: 4px;
     margin-bottom: 6px;
 }
+
