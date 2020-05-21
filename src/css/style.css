@@ -13,6 +13,17 @@
     src: url(fonts/Poppins/Poppins-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url(fonts/Avenir/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Roman;
+    src: url(fonts/Avenir/Avenir-Roman.otf);
+}
+
+
 
 * {
     margin: 0;
@@ -26,10 +37,11 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1f;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 100vw;
     height: 100vh;
     background: #FED330;
+
 }
 
 .menu {
@@ -130,9 +142,54 @@
 /** section 2 **/
 
 .frame {
-   grid-gap: 0;
+    display: grid;
+    grid-gap: 0;
 }
 
-.pic img {
+.pic img, .socials {
+
     width: 100%;
+    margin-bottom: -0.4em;
+}
+
+.social {
+    background-color: black;
+    height: 150px;
+    
+}
+
+.icons, .icons img {
+    background-color: black;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.social span {
+    font-family: Avenir-Heavy;
+    background-color: black;
+}
+ .social p {
+    background-color: black;
+    color: white;
+    font-family: Avenir-Roman;
+     text-align: center;
+     font-size: 14px;
+     margin-top: 30px;
+}
+
+.icons img {
+    margin-right: 20px;
+}
+
+.ig, .msg {
+    width: 20px;
+}
+
+.dot {
+    width: 4px;
+    margin-bottom: 6px;
 }

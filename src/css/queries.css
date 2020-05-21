@@ -85,4 +85,8 @@
         width: 460px;
     }
     
+    .msg, .img {
+        display: flex;
+    }
+    
 }
