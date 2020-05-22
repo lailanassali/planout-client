@@ -121,7 +121,7 @@
 
 .btn {
     background: black;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     font-family: Poppins-Light;
     width: 80%;
@@ -130,6 +130,7 @@
     height: 50px;
     font-size: 18px;
     margin-bottom: 50px;
+    border: solid black;
 }
 
 .btn:hover {
