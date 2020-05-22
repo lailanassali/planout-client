@@ -30,6 +30,12 @@
 
     .frame {
         margin: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .template {
+        display: grid;
     }
 
     .menu {
@@ -77,13 +83,22 @@
         height: 60px;
         font-size: 20px;
     }
-
-    .pic img,
-    .socials {
-
-        width:
+    
+    .pic1 {
+        grid-column: 1;
     }
-
+    
+    .pic2 {
+        grid-column: 2;
+    }
+    
+    .pic7 {
+        display: none;
+    }
+    
+    .big-pic7 {
+        display: contents;
+    }
 }
 
 

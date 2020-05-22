@@ -145,6 +145,11 @@
     margin-top: 28em;
 }
 
+.template {
+    display: grid;
+    
+}
+
 .pic img,
 .socials {
 
@@ -172,6 +177,10 @@
 .social span {
     font-family: Avenir-Heavy;
     background-color: black;
+}
+
+.big-pic7 {
+    display: none;
 }
 
 .social p {
