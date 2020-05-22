@@ -6,6 +6,7 @@
 }
 
 @media (min-height: 812px) and (min-width: 375px) {
+
     /* CSS stuff */
     .frame {
         margin-top: 25em;
@@ -47,13 +48,9 @@
         margin-top: 2.5em;
     }
 
-    .logo img {
-        width: 130px;
-    }
-
     .hero {
         text-align: center;
-        margin-top: 0;
+        margin-top: 3em;
         margin-bottom: 10%;
         margin-right: 3em;
     }
@@ -64,7 +61,7 @@
 
     .content {
         margin-right: 7em;
-        margin-top: 5em;
+        margin-top: 8em;
     }
 
     .content p,
@@ -96,20 +93,19 @@
 
     .logo img {
         width: 160px;
-        margin-right: 50px;
     }
 
     .hero img {
-        width: 360px;
+        width: 350px;
     }
 
     .content {
-        margin-top: 9em;
+        margin-top: 10em;
     }
 
     .content p,
     .user input {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .content p {
@@ -119,17 +115,7 @@
     .btn {
         font-size: 28px;
         height: 70px;
-        width: 460px;
-    }
-
-    .msg,
-    .img {
-        display: flex;
-    }
-
-    .frame {
-        margin-top: 20em;
-
+        width: 400px;
     }
 
 }
