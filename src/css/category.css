@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Poppins-Light;
+    src: url(fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.content {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.category p {
+    font-size: 34px;
+    font-family: Poppins-Light;
+}
+
+.title p {
+    margin-top: 1em;
+    font-size: 60px;
+    font-family: Poppins-Regular;
+}
+
+.icon img {
+    margin-top: 5em;
+}
+
+.info p {
+     margin-top: 2em;
+    font-size: 38px;
+    font-family: Poppins-Light;
+}
