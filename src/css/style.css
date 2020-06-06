@@ -164,6 +164,12 @@
     display: none;
 }
 
+.category a {
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
 .pic {
     position: relative;
 }

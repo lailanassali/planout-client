@@ -16,6 +16,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #FFF9E3;
 }
 
 .wrapper {
@@ -61,4 +62,14 @@
      margin-top: 2em;
     font-size: 38px;
     font-family: Poppins-Light;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    
 }
