@@ -55,7 +55,7 @@
 }
 
 .icon img {
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 .info p {
@@ -71,5 +71,24 @@
         grid-template-columns: 1fr;
     }
     
+    .content {
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+    
+}
+
+@media only screen and (max-width: 470px) {
+    .category p, .info p {
+        font-size: 20px;
+    }
+    
+    .title p {
+        font-size: 36px;
+    }
+    
+    .icon img {
+        width: 60%;
+    }
     
 }
