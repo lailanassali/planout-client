@@ -134,10 +134,11 @@
 }
 
 .btn:hover {
-    background: #FF9F1A;
+    background: none;
     text-decoration: none;
     border: solid black 2px;
     border-radius: 15px;
+    color: black;
 }
 
 /** section 2 **/
@@ -170,11 +171,11 @@
     color: white;
 }
 
-.pic {
+.pic, .pic8 {
     position: relative;
 }
 
-.pic:hover .category {
+.pic:hover .category, .pic8:hover .category8 {
     display: block;
 }
 

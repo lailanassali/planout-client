@@ -97,9 +97,8 @@
     }
 
     .pic8 {
-        display: contents;
+        display: block;
     }
-
 }
 
 
