@@ -38,14 +38,14 @@
         display: grid;
     }
 
-    .menu {
+    .hamburger-menu {
         justify-self: end;
         grid-column: 2/3;
         margin-top: 3em;
         margin-right: 3em;
     }
 
-    .menu img {
+    .hamburger-menu img {
         width: 55px;
     }
 
