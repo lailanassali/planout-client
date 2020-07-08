@@ -29,10 +29,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #FED330;
 }
 
 /** section 1 **/
+
+.home-page {
+    background: #FED330;
+}
 
 .wrapper {
     display: grid;
@@ -40,28 +43,31 @@
     grid-template-rows: 1fr 1fr 1fr;
     width: 100vw;
     height: 100vh;
-    background: #FED330;
 
 }
 
 
 /** 1fr 1fr 1fr **/
-.logo {
+.logo,
+.about-logo {
     justify-self: center;
     margin-top: 20%;
     margin-bottom: 30px;
 }
 
-.logo img {
+.logo img,
+.about-logo img {
     width: 125px;
 }
 
 
-.hero {
+.hero,
+.about-hero {
     margin-top: 10%;
 }
 
-.hero img {
+.hero img,
+.about-hero img {
     width: 200px;
 }
 
@@ -90,7 +96,8 @@
 
 .content,
 .user,
-.hero {
+.hero,
+.about-hero {
     justify-self: center;
 }
 
@@ -106,6 +113,7 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    background: #FED330;
 }
 
 .btn {
@@ -235,4 +243,35 @@
 .dot {
     width: 4px;
     margin-bottom: 6px;
+}
+
+/** ABOUT PAGE **/
+
+.about-page {
+    background: #FF9F1A;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h1 {
+    margin-top: 30px;
+    font-family: Poppins-SemiBold;
+}
+
+.about-content p {
+    font-family: Poppins-Light;
+    font-size: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
 }
