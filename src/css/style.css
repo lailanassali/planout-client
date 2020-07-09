@@ -252,7 +252,7 @@
 .about-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 1fr 1fr;
     width: 100vw;
     height: 100vh;
 
@@ -271,11 +271,32 @@
 
 .about-content p {
     font-family: Poppins-Light;
-    π
+    padding: 20px;
+}
+
+.about-content p.title {
+    font-family: Poppins-SemiBold;
+}
+
 
 .about-content a {
     margin-bottom: 20px;
     text-decoration: none;
     color: black;
     font-family: Poppins-Light;
+}
+
+.mail {
+    width: 15px;
+}
+
+.socials img {
+    width: 35px;
+ 
+}
+
+.socials {
+    text-align: center;
+    margin-top: 2em;
+    
 }

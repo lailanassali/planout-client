@@ -32,7 +32,7 @@
     .about-wrapper {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .hero {
@@ -115,6 +115,11 @@
         font-family: Poppins-Light;
         font-size: 24px;
     }
+    
+    
+.mail {
+    width: 25px;
+}
 
     .content {
         margin-right: 7em;
@@ -149,6 +154,16 @@
 
     .pic8 {
         display: block;
+    }
+    
+    .socials img {
+        width: 50px;
+    }
+    
+    .socials {
+        text-align: center;
+        grid-column: 2;
+       
     }
 }
 
@@ -212,5 +227,6 @@
         color: black;
         font-size: 34px;
     }
-
+    
+ 
 }
