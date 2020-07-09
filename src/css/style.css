@@ -23,8 +23,6 @@
     src: url(fonts/Avenir/Avenir-Roman.otf);
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -262,6 +260,8 @@
 
 .about-content {
     text-align: center;
+    margin-bottom: 20px;
+    justify-self: center;
 }
 
 .about-content h1 {
@@ -271,7 +271,11 @@
 
 .about-content p {
     font-family: Poppins-Light;
-    font-size: 12px;
-    padding: 25px;
+    π
+
+.about-content a {
     margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins-Light;
 }
