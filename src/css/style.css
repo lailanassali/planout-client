@@ -308,3 +308,9 @@
 .video {
     width: 100%;
 }
+
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
+}
+
+

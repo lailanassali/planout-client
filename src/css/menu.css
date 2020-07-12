@@ -77,9 +77,11 @@
 
 .nav-item {
     list-style: none; 
-    margin: 20px;
+    margin: 20px 2px;
     background-color: transparent;
 }
+
+
 
 .nav-link, .dropbtn {
     text-decoration: none;
