@@ -249,7 +249,8 @@
     .iphone {
         grid-column: 1;
         align-self: center;
-        height: 600px;
+        height: 700px;
+        width: 600px;
         margin-right: 3em;
     }
     
