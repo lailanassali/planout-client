@@ -180,27 +180,8 @@
         height: 500px;
         margin-right: 3em;
     }
-    
-    .custom {
-        grid-column: 2;
-        align-self: center;
-  
-    }
-    
-    .custom p {
-        font-size: 15px;
-        
-    }
-    
-    .c-video {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        align-self: center;
-    }
-    
-    .video {
-        width: 650px;
-    }
+
+ 
 }
 
 
@@ -272,12 +253,9 @@
         margin-right: 3em;
     }
     
-    .c-video {
-        width: 50%;
-        justify-self: center;
-    }
     
- 
- 
+
+    
+    
 
 }
