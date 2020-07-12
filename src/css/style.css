@@ -301,9 +301,10 @@
 
 .iphone {
     justify-self: center;
-    width: 400px;
-    height: 350px;
+            width: 400px;
+    height: 450px;
 }
 
-
-
+.video {
+    width: 100%;
+}

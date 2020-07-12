@@ -9,11 +9,17 @@
     <link rel="stylesheet" href="/src/css/menu.css">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/queries.css">
+    <link rel="stylesheet" href="/src/css/video.css">
     <!-- Bootstrap CSS -->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link href="https://vjs.zencdn.net/7.8.3/video-js.css" rel="stylesheet" />
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -70,26 +76,28 @@
             <a href="https://www.planout.co.uk"><img src="/src/img/main/logo.png"></a>
         </div>
 
-        <div class="vid">
-            <video autoplay="autoplay" width="500">
-                <source src="/src/img/video.mp4" type="video/mp4">
+        <div class="c-video">
+            <video class="video" loop autoplay src="/src/img/video.mp4">
             </video>
         </div>
 
-        <div class="about-content">
+        <div class="about-content custom">
             <h1>ABOUT US</h1>
             <p>Welcome to Planout!<br>
-            Planout is a platform that provides everyone with a variety of enjoyable things to do in and around London. 
-            Whether you are tourists looking to explore London or a Londoner interested in what new adventures the City holds, Planout guarantees to have something for everyone.</p> 
+                Planout is a platform that provides everyone with a variety of enjoyable things to do in and around London.
+                Whether you are tourists looking to explore London or a Londoner interested in what new adventures the City holds, Planout guarantees to have something for everyone.</p>
             <p> We have an Instagram page and an app in the works. Make sure you subscribe if you haven’t already to stay up-to-date on things to do in London.
             </p>
         </div>
-            <div class="socials">
+        <div class="socials">
             <a href="instagram.com/planoutofficial"><img src="/src/img/instagram.png"></a>
-    </div>
+        </div>
     </div>
 
 
     <script src="/src/js/script.js"></script>
     <script src="/src/js/nav.js"></script>
-</body></html>
+    <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>
+</body>
+
+</html>
