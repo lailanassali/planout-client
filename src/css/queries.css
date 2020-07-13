@@ -32,7 +32,7 @@
     .about-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: 1fr 2fr;
     
     }
     
@@ -41,6 +41,7 @@
         grid-column-end: 3;
         text-align: center;
         margin-top: 5em;
+        
     }
 
     .socials {
@@ -180,8 +181,10 @@
         height: 500px;
         margin-right: 3em;
     }
-
- 
+    
+    .video {
+        width: 40em;
+    }
 }
 
 

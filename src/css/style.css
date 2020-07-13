@@ -54,7 +54,8 @@
 
 .about-logo {
     justify-self: center;
-    margin-top: 12em;
+    margin-top: 10em;
+    margin-bottom: 1em;
 }
 
 .logo img,
@@ -199,7 +200,7 @@
 
 .social {
     background-color: black;
-    padding-bottom: 1em;
+    padding-bottom: 35px;
 }
 
 .icons,
