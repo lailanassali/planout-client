@@ -46,11 +46,15 @@
 
 
 /** 1fr 1fr 1fr **/
-.logo,
-.about-logo {
+.logo {
     justify-self: center;
     margin-top: 20%;
     margin-bottom: 30px;
+}
+
+.about-logo {
+    justify-self: center;
+    margin-top: 12em;
 }
 
 .logo img,
@@ -195,7 +199,7 @@
 
 .social {
     background-color: black;
-    height: 150px;
+    padding-bottom: 1em;
 }
 
 .icons,
@@ -252,6 +256,7 @@
 .about-wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
     width: 100vw;
     height: 100vh;
 }

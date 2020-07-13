@@ -143,3 +143,57 @@
 }
 
 .show {display: block;}
+
+
+.social {
+    background-color: black;
+    padding-bottom: 1em;
+}
+
+
+.social span {
+    font-family: Avenir-Heavy;
+    background-color: black;
+}
+
+.social p,
+.social a {
+    background-color: black;
+    color: white;
+    font-family: Avenir-Roman;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.icons img {
+    margin-right: 20px;
+}
+
+
+.template {
+    display: grid;
+}
+
+.icons,
+.icons img {
+    background-color: black;
+}
+
+
+.icons {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.ig,
+.msg {
+    width: 20px;
+}
+
+.dot {
+    width: 4px;
+    margin-bottom: 6px;
+}
