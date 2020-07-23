@@ -105,7 +105,7 @@
 
 .user input {
     font-family: Poppins-Light;
-    padding: 20px 50px;
+    padding: 20px 20px;
     border-bottom: 0.2px solid black;
     overflow: hidden;
     outline: none;
@@ -308,7 +308,7 @@
 .iphone {
     justify-self: center;
             width: 300px;
-    height: 350px;
+    height: 550px;
 }
 
 .video {
