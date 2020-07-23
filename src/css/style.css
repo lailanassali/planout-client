@@ -105,8 +105,8 @@
 
 .user input {
     font-family: Poppins-Light;
-    padding: 20px 0px;
-    border-bottom: 0.2px solid black;
+    padding: 20px 50px;
+    border-bottom: 2px solid black;
     overflow: hidden;
     outline: none;
     margin-bottom: 15%;
