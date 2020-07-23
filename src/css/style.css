@@ -116,12 +116,12 @@
     border-right: none;
     border-top: none;
     background: #FED330;
+    -webkit-appearance: none;
 }
 
-input[type="search"] {
-     -webkit-appearance: none;
+input[type=range] {
+      -webkit-appearance: none;
 }
-
 
 .btn {
     background: black;
