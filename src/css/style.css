@@ -116,6 +116,7 @@
     border-right: none;
     border-top: none;
     background: #FED330;
+    -webkit-appearance: none;
 }
 
 .btn {
