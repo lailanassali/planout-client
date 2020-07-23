@@ -116,15 +116,10 @@
     border-right: none;
     border-top: none;
     background: #FED330;
-    -webkit-appearance: none;
-        -moz-appearance: none;
-appearance: none;
 }
 
-.user {
+input[type="search"] {
      -webkit-appearance: none;
-        -moz-appearance: none;
-appearance: none;
 }
 
 
