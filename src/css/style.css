@@ -117,13 +117,10 @@
     border-top: none;
     background: #FED330;
     -webkit-appearance: none;
-}
-
-input {
-      -webkit-appearance: none;
-    -moz-appearance: none;
+        -moz-appearance: none;
 appearance: none;
 }
+
 
 .btn {
     background: black;
