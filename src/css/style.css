@@ -121,6 +121,12 @@
 appearance: none;
 }
 
+.user {
+     -webkit-appearance: none;
+        -moz-appearance: none;
+appearance: none;
+}
+
 
 .btn {
     background: black;
