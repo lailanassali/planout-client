@@ -119,6 +119,12 @@
     -webkit-appearance: none;
 }
 
+input {
+      -webkit-appearance: none;
+    -moz-appearance: none;
+appearance: none;
+}
+
 .btn {
     background: black;
     border-radius: 10px;
