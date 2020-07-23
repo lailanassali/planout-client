@@ -105,8 +105,8 @@
 
 .user input {
     font-family: Poppins-Light;
-    padding: 20px 50px;
-    border-bottom: 2px solid black;
+    padding: 20px 20px;
+    border-bottom: 1px solid black;
     overflow: hidden;
     outline: none;
     margin-bottom: 15%;
@@ -117,10 +117,6 @@
     border-top: none;
     background: #FED330;
     -webkit-appearance: none;
-}
-
-input[type=range] {
-      -webkit-appearance: none;
 }
 
 .btn {
