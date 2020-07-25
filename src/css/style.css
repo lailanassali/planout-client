@@ -179,6 +179,7 @@
 .pic:hover .category,
 .pic8:hover .category8 {
     display: block;
+    cursor: pointer;
 }
 
 .text {
